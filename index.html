@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Greeny AI | Green Building Assistant</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f3f8f3;
+            text-align: center;
+        }
+
+        header {
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 55px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 15px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>🌱 Greeny AI</h1>
+
+    <h2>Your Green Building Assistant</h2>
+
+    <p>
+        Learn about green buildings, sustainable features,
+        and green buildings in Singapore.
+    </p>
+
+    <h3>💬 Click the chatbot to start learning!</h3>
+
+</header>
+
+
+<section class="features">
+
+    <div class="card">
+        <h2>🏢 Green Buildings</h2>
+        <p>Learn what makes a building environmentally sustainable.</p>
+    </div>
+
+    <div class="card">
+        <h2>⚡ Energy Efficiency</h2>
+        <p>Discover how green buildings reduce energy consumption.</p>
+    </div>
+
+    <div class="card">
+        <h2>🇸🇬 Singapore</h2>
+        <p>Explore green building examples in Singapore.</p>
+    </div>
+
+</section>
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '6a55e767759739118a02a8dc' },
+          url: 'https://general-runtime.voiceflow.com',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          }
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
